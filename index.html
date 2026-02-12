@@ -3,28 +3,155 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NERKA</title>
+<title>ТЕРПЕНИЕ — nerka.pro</title>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Marck+Script&display=swap');
+
 *{margin:0;padding:0;box-sizing:border-box}
-html,body{height:100%}
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#0a0a0a;color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;overflow:hidden}
-.container{animation:fadeIn 1.5s ease-out}
-h1{font-size:clamp(4rem,15vw,12rem);font-weight:900;letter-spacing:-0.04em;line-height:0.9;margin-bottom:1rem;background:linear-gradient(135deg,#fff 0%,#888 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-p{font-size:clamp(1rem,3vw,1.5rem);color:#666;margin-bottom:3rem;max-width:600px;padding:0 2rem}
-.footer{position:fixed;bottom:2rem;font-size:0.875rem;color:#444}
-.footer a{color:#666;text-decoration:none;transition:color 0.3s}
-.footer a:hover{color:#fff}
-@keyframes fadeIn{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
-@media(max-width:600px){h1{letter-spacing:-0.02em}}
+
+html,body{
+  height:100%;
+  background:#f5f2eb;
+  font-family:'Marck Script',cursive;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+}
+
+.container{
+  text-align:center;
+  animation:fadeIn 2s ease-out;
+}
+
+.title{
+  font-size:clamp(2.5rem,8vw,4.5rem);
+  letter-spacing:0.3em;
+  color:#2a2520;
+  margin-bottom:2rem;
+  text-transform:uppercase;
+}
+
+.candle-wrapper{
+  position:relative;
+  display:inline-block;
+}
+
+.candle{
+  width:140px;
+  height:320px;
+  background:linear-gradient(90deg,
+    #c41e3a 0%,
+    #ff4d6d 20%,
+    #ff6b8a 40%,
+    #c41e3a 50%,
+    #ff4d6d 70%,
+    #ff6b8a 85%,
+    #c41e3a 100%
+  );
+  border-radius:8px 8px 4px 4px;
+  position:relative;
+  box-shadow:
+    inset -15px 0 25px rgba(0,0,0,0.2),
+    inset 10px 0 20px rgba(255,255,255,0.1),
+    0 20px 40px rgba(196,30,58,0.3);
+}
+
+/* Texture lines */
+.candle::before{
+  content:'';
+  position:absolute;
+  top:0;left:0;right:0;bottom:0;
+  background:repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 8px,
+    rgba(255,255,255,0.05) 8px,
+    rgba(255,255,255,0.05) 10px
+  );
+  border-radius:8px 8px 4px 4px;
+}
+
+/* Bite mark */
+.candle::after{
+  content:'';
+  position:absolute;
+  top:-5px;
+  right:20px;
+  width:50px;
+  height:40px;
+  background:#f5f2eb;
+  border-radius:50%;
+  transform:rotate(-20deg);
+}
+
+.wick{
+  position:absolute;
+  top:-12px;
+  left:50%;
+  transform:translateX(-50%);
+  width:3px;
+  height:15px;
+  background:#4a4a4a;
+  border-radius:2px;
+  z-index:10;
+}
+
+.flame{
+  position:absolute;
+  top:-35px;
+  left:50%;
+  transform:translateX(-50%);
+  width:16px;
+  height:24px;
+  background:radial-gradient(ellipse at center bottom,#fff 0%,#ffeb3b 30%,#ff9800 60%,transparent 100%);
+  border-radius:50% 50% 50% 50% / 60% 60% 40% 40%;
+  animation:flicker 1.5s ease-in-out infinite alternate;
+  opacity:0.9;
+}
+
+@keyframes flicker{
+  0%{transform:translateX(-50%) scale(1) rotate(-2deg);opacity:0.9}
+  100%{transform:translateX(-50%) scale(1.05) rotate(2deg);opacity:1}
+}
+
+.subtitle{
+  font-size:clamp(1.5rem,5vw,2.5rem);
+  color:#4a4a4a;
+  margin-top:2.5rem;
+  letter-spacing:0.15em;
+}
+
+.footer{
+  position:fixed;
+  bottom:2rem;
+  font-size:1rem;
+  color:#999;
+  font-family:'Caveat',cursive;
+}
+
+@keyframes fadeIn{
+  from{opacity:0;transform:translateY(20px)}
+  to{opacity:1;transform:translateY(0)}
+}
+
+@media(max-width:600px){
+  .candle{width:100px;height:240px}
+  .title{letter-spacing:0.2em}
+}
 </style>
 </head>
 <body>
 <div class="container">
-<h1>NERKA</h1>
-<p>Скоро здесь будет что-то интересное.</p>
+  <h1 class="title">ТЕРПЕНИЕ</h1>
+  <div class="candle-wrapper">
+    <div class="flame"></div>
+    <div class="wick"></div>
+    <div class="candle"></div>
+  </div>
+  <p class="subtitle">ПЕТРОВИЧИ РАБОТАЮТ</p>
 </div>
-<div class="footer">
-made by <a href="https://github.com/pik" target="_blank">pik</a>
-</div>
+<footer class="footer">made by pik</footer>
 </body>
 </html>
