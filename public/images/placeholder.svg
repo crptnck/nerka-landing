@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#111111"/>
+  <path d="M200 120c-30 0-55 15-70 40-10 17-15 35-15 55 0 50 38 85 85 85s85-35 85-85c0-20-5-38-15-55-15-25-40-40-70-40z" fill="none" stroke="#333333" stroke-width="2"/>
+  <path d="M200 140c-20 0-38 10-48 28-7 12-10 25-10 38 0 35 26 60 58 60s58-25 58-60c0-13-3-26-10-38-10-18-28-28-48-28z" fill="#1a1a1a"/>
+  <circle cx="185" cy="190" r="5" fill="#333333"/>
+  <path d="M200 160 Q260 180 270 215" fill="none" stroke="#333333" stroke-width="1.5"/>
+  <path d="M200 160 Q260 170 275 200" fill="none" stroke="#333333" stroke-width="1"/>
+  <text x="200" y="330" text-anchor="middle" fill="#333333" font-family="sans-serif" font-size="14">ФОТО</text>
+</svg>

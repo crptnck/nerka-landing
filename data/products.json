@@ -1,0 +1,225 @@
+{
+  "lastUpdated": "2026-02-25",
+  "products": [
+    {
+      "sku": "NRK-001",
+      "name": "Нерка б/г с/м",
+      "category": "Рыба",
+      "price": 1250,
+      "unit": "кг",
+      "stock": 800,
+      "onSale": false,
+      "saleDescription": "",
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "sku": "NRK-002",
+      "name": "Кета б/г с/м",
+      "category": "Рыба",
+      "price": 580,
+      "unit": "кг",
+      "stock": 1200,
+      "onSale": true,
+      "saleDescription": "Скидка 10% при заказе от 100 кг",
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "sku": "NRK-003",
+      "name": "Горбуша б/г с/м",
+      "category": "Рыба",
+      "price": 380,
+      "unit": "кг",
+      "stock": 2000,
+      "onSale": false,
+      "saleDescription": "",
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "sku": "NRK-004",
+      "name": "Кижуч б/г с/м",
+      "category": "Рыба",
+      "price": 950,
+      "unit": "кг",
+      "stock": 450,
+      "onSale": false,
+      "saleDescription": "",
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "sku": "NRK-005",
+      "name": "Икра горбуши (1 сорт)",
+      "category": "Икра",
+      "price": 4200,
+      "unit": "кг",
+      "stock": 150,
+      "onSale": true,
+      "saleDescription": "При заказе от 10 кг — 3900₽/кг",
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "sku": "NRK-006",
+      "name": "Икра кеты (1 сорт)",
+      "category": "Икра",
+      "price": 5800,
+      "unit": "кг",
+      "stock": 80,
+      "onSale": false,
+      "saleDescription": "",
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "sku": "NRK-007",
+      "name": "Икра нерки (1 сорт)",
+      "category": "Икра",
+      "price": 5200,
+      "unit": "кг",
+      "stock": 60,
+      "onSale": false,
+      "saleDescription": "",
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "sku": "NRK-008",
+      "name": "Кальмар сушёный соломка",
+      "category": "Снеки",
+      "price": 890,
+      "unit": "кг",
+      "stock": 300,
+      "onSale": false,
+      "saleDescription": "",
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "sku": "NRK-009",
+      "name": "Кальмар кольца сушёные",
+      "category": "Снеки",
+      "price": 950,
+      "unit": "кг",
+      "stock": 250,
+      "onSale": true,
+      "saleDescription": "Новинка! Скидка 15% до конца месяца",
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "sku": "NRK-010",
+      "name": "Анчоус сушёный",
+      "category": "Снеки",
+      "price": 720,
+      "unit": "кг",
+      "stock": 400,
+      "onSale": false,
+      "saleDescription": "",
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "sku": "NRK-011",
+      "name": "Рыба жёлтый полосатик",
+      "category": "Снеки",
+      "price": 650,
+      "unit": "кг",
+      "stock": 500,
+      "onSale": false,
+      "saleDescription": "",
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "sku": "NRK-012",
+      "name": "Креветка с/м 50/70",
+      "category": "Морепродукты",
+      "price": 780,
+      "unit": "кг",
+      "stock": 600,
+      "onSale": false,
+      "saleDescription": "",
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "sku": "NRK-013",
+      "name": "Креветка с/м 16/20",
+      "category": "Морепродукты",
+      "price": 1450,
+      "unit": "кг",
+      "stock": 200,
+      "onSale": false,
+      "saleDescription": "",
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "sku": "NRK-014",
+      "name": "Краб камчатский (фаланги)",
+      "category": "Морепродукты",
+      "price": 3800,
+      "unit": "кг",
+      "stock": 50,
+      "onSale": false,
+      "saleDescription": "",
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "sku": "NRK-015",
+      "name": "Минтай б/г с/м",
+      "category": "Рыба",
+      "price": 210,
+      "unit": "кг",
+      "stock": 3000,
+      "onSale": true,
+      "saleDescription": "Цена снижена! Было 250₽/кг",
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "sku": "NRK-016",
+      "name": "Чипсы рыбные ассорти",
+      "category": "Снеки",
+      "price": 1100,
+      "unit": "кг",
+      "stock": 180,
+      "onSale": false,
+      "saleDescription": "",
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "sku": "NRK-017",
+      "name": "Гребешок с/м",
+      "category": "Морепродукты",
+      "price": 2900,
+      "unit": "кг",
+      "stock": 90,
+      "onSale": false,
+      "saleDescription": "",
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "sku": "NRK-018",
+      "name": "Треска филе с/м",
+      "category": "Рыба",
+      "price": 520,
+      "unit": "кг",
+      "stock": 700,
+      "onSale": false,
+      "saleDescription": "",
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "sku": "NRK-019",
+      "name": "Вяленый окунь пласт",
+      "category": "Закуски",
+      "price": 850,
+      "unit": "кг",
+      "stock": 350,
+      "onSale": false,
+      "saleDescription": "",
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "sku": "NRK-020",
+      "name": "Строганина из нерки",
+      "category": "Закуски",
+      "price": 1800,
+      "unit": "кг",
+      "stock": 120,
+      "onSale": true,
+      "saleDescription": "Хит продаж! Бесплатная доставка от 50 кг",
+      "image": "/images/placeholder.svg"
+    }
+  ]
+}

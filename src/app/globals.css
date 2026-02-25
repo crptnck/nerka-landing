@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* ===== Тема nerka.pro ===== */
+@theme {
+  --color-brand: #f20019;
+  --color-brand-dark: #c10014;
+  --color-surface: #000000;
+  --color-surface-raised: #111111;
+  --color-surface-overlay: #1a1a1a;
+  --color-border: #222222;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #999999;
+  --color-text-muted: #666666;
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+
+  --font-sans: "Asap", system-ui, -apple-system, sans-serif;
+}
+
+/* ===== Базовые стили ===== */
+body {
+  background-color: var(--color-surface);
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Скрытие скроллбара на чипах категорий */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
